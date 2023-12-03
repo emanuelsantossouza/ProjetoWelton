@@ -1,0 +1,7 @@
+{
+  "name": "welton",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
