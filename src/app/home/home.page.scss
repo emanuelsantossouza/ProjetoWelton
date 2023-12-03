@@ -1,27 +1,40 @@
-#container {
-  text-align: center;
+.alinhamentoRows {
+  display: flex;
+  justify-content: space-around;
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+
+  ion-icon {
+    font-size: .8rem;
+    margin-right: 0.7rem;
+  }
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+h3 {
+  font-size: 1rem;
+  text-transform: lowercase;
+
+  ion-icon {
+    font-size: .8rem;
+    margin-right: 0.7rem;
+  }
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-icon {
+  margin-right: 0.7rem;
 }
 
-#container a {
-  text-decoration: none;
+.alinhamentoBtn {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem 0;
+  font-size: 12px;
+}
+
+
+.alimentoGrid {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  gap: 1rem;
 }
